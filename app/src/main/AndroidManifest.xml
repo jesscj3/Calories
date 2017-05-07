@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.jessicaurrego.calories" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Manzana"
+            android:label="@string/title_activity_manzana" >
+        </activity>
+        <activity
+            android:name=".Pera"
+            android:label="@string/title_activity_pera" >
+        </activity>
+        <activity
+            android:name=".CocaColaLight"
+            android:label="@string/title_activity_coca_cola_light" >
+        </activity>
+        <activity
+            android:name=".Banano"
+            android:label="@string/title_activity_platano" >
+        </activity>
+        <activity
+            android:name=".Uva"
+            android:label="@string/title_activity_uva" >
+        </activity>
+        <activity
+            android:name=".Naranja"
+            android:label="@string/title_activity_naranja" >
+        </activity>
+        <activity
+            android:name=".CocaCola"
+            android:label="@string/title_activity_coca_cola" >
+        </activity>
+        <activity
+            android:name=".Agua"
+            android:label="@string/title_activity_agua" >
+        </activity>
+        <activity
+            android:name=".Malteada"
+            android:label="@string/title_activity_horchata" >
+        </activity>
+        <activity
+            android:name=".Cerveza"
+            android:label="@string/title_activity_cerveza" >
+        </activity>
+        <activity
+            android:name=".Margarita"
+            android:label="@string/title_activity_sabritas" >
+        </activity>
+        <activity
+            android:name=".Chocolate"
+            android:label="@string/title_activity_chocolate" >
+        </activity>
+        <activity
+            android:name=".Galletas"
+            android:label="@string/title_activity_galletas" >
+        </activity>
+        <activity
+            android:name=".Caramelos"
+            android:label="@string/title_activity_caramelos" >
+        </activity>
+        <activity
+            android:name=".Frituras"
+            android:label="@string/title_activity_frituras" >
+        </activity>
+        <activity
+            android:name=".Acerca"
+            android:label="@string/title_activity_acerca" >
+        </activity>
+    </application>
+
+</manifest>
